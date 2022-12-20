@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.10502498, g: 0.13485196, b: 0.1344606, a: 1}
+  m_IndirectSpecularColor: {r: 0.10502117, g: 0.1348406, b: 0.1344526, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2040,15 +2040,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b6e8aac9eaa4d94eac662e4746108bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.8
+      value: -23.05
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b6e8aac9eaa4d94eac662e4746108bb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.67
+      value: 3.26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b6e8aac9eaa4d94eac662e4746108bb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 30.532
+      value: 25.11
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b6e8aac9eaa4d94eac662e4746108bb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4862,7 +4862,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &1762745576
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4879,7 +4879,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!114 &1762745578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4893,6 +4893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 2
+  anim: {fileID: 1762745576}
 --- !u!65 &1762745579
 BoxCollider:
   m_ObjectHideFlags: 0
